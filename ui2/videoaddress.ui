@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Choose_Atten</class>
+ <widget class="QWidget" name="Choose_Atten">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>380</width>
+    <height>264</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>380</width>
+     <height>264</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/res/Rectangle.png);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QComboBox" name="ins_comBox">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>80</y>
+      <width>200</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Adobe 黑体 Std R&quot;;
+color:rgb(223, 223, 223)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>80</y>
+      <width>80</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Adobe 黑体 Std R&quot;;</string>
+    </property>
+    <property name="text">
+     <string>开课学院</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="les_comBox">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>130</y>
+      <width>200</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Adobe 黑体 Std R&quot;;
+color:rgb(223, 223, 223)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;黑体&quot;;
+color: rgb(0, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>选择点名课程</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>130</y>
+      <width>80</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Adobe 黑体 Std R&quot;;</string>
+    </property>
+    <property name="text">
+     <string>开设课程</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>190</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="certain">
+       <property name="styleSheet">
+        <string notr="true">
+
+QPushButton{color: rgb(0, 0, 0);
+border-image: url(:/new/res/43.gif);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;
+}
+QPushButton:hover{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+QPushButton:pressed{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+</string>
+       </property>
+       <property name="text">
+        <string>确认</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="back_button">
+       <property name="styleSheet">
+        <string notr="true">
+
+QPushButton{color: rgb(0, 0, 0);
+border-image: url(:/new/res/43.gif);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;
+}
+QPushButton:hover{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+QPushButton:pressed{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+</string>
+       </property>
+       <property name="text">
+        <string>返回</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../photo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

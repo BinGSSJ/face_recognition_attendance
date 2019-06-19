@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main</class>
+ <widget class="QWidget" name="Main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>895</width>
+    <height>428</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>911</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/res/Rectangle.png);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>50</y>
+      <width>321</width>
+      <height>69</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;黑体&quot;;
+color: rgb(0, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>人脸识别课堂点名系统</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="commandLinkButton_3">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>200</y>
+      <width>200</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{color: rgb(0, 0, 0);
+border-image: url(:/new/res/43.gif);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;
+}
+QPushButton:hover{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+QPushButton:pressed{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+</string>
+    </property>
+    <property name="text">
+     <string>人脸录入</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="class_info_Button">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>200</y>
+      <width>200</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{color: rgb(0, 0, 0);
+border-image: url(:/new/res/43.gif);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;
+}
+QPushButton:hover{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+QPushButton:pressed{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+</string>
+    </property>
+    <property name="text">
+     <string>选课情况录入</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="commandLinkButton_1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>200</y>
+      <width>200</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{color: rgb(0, 0, 0);
+border-image: url(:/new/res/43.gif);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;
+}
+QPushButton:hover{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+QPushButton:pressed{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+</string>
+    </property>
+    <property name="text">
+     <string>点名</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="commandLinkButton_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>200</y>
+      <width>200</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{color: rgb(0, 0, 0);
+border-image: url(:/new/res/43.gif);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;
+}
+QPushButton:hover{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+QPushButton:pressed{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 25 12pt &quot;微软雅黑 Light&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+</string>
+    </property>
+    <property name="text">
+     <string>人脸查看</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="settingButton">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>30</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#ffffff;&quot;&gt;设置视频流地址&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/res/设置 (2).png)}QPushButton:hover{border-image: url(:/new/res/设置 (3).png)}
+QPushButton:pressed{border-image: url(:/new/res/设置 (3).png)}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../photo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

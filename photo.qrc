@@ -1,0 +1,30 @@
+<RCC>
+  <qresource prefix="new">
+    <file>res/1.png</file>
+    <file>res/camera_2.jpg</file>
+    <file>res/eye.jpg</file>
+    <file>res/manifier.jpg</file>
+    <file>res/write.jpg</file>
+    <file>res/loadi.gif</file>
+    <file>res/Rectangle 5.png</file>
+    <file>res/设置 (2).png</file>
+    <file>res/设置 (3).png</file>
+    <file>res/43.gif</file>
+    <file>res/46.gif</file>
+    <file>res/Rectangle.png</file>
+    <file>res/主页 (1).png</file>
+    <file>res/主页.png</file>
+    <file>res/check-circle.png</file>
+    <file>res/check-circle-fill.png</file>
+    <file>res/loading.gif</file>
+    <file>res/loading2.gif</file>
+    <file>res/setting.png</file>
+    <file>res/setting-fill.png</file>
+    <file>res/step-backward.png</file>
+    <file>res/step-forward.png</file>
+    <file>res/vertical left.png</file>
+    <file>res/vertical right.png</file>
+    <file>res/loading2.gif</file>
+    <file>res/loading.gif</file>
+  </qresource>
+</RCC>

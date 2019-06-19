@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main</class>
+ <widget class="QWidget" name="Main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1010</width>
+    <height>671</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1011</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color:  rgb(42, 131, 162)</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>301</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;黑体&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>人脸识别课堂点名系统</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="settingButton">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>30</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#ffffff;&quot;&gt;设置视频流地址&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/new/res/设置 (2).png)}QPushButton:hover{border-image: url(:/new/res/设置 (3).png)}
+QPushButton:pressed{border-image: url(:/new/res/设置 (3).png)}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>100</y>
+      <width>641</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/new/res/eye.jpg);
+font: 72pt &quot;黑体&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="commandLinkButton_1">
+           <property name="styleSheet">
+            <string notr="true">
+
+QPushButton{
+
+color: rgb(0,0,0);
+border-image: url(:/new/res/43.gif);
+font: 16pt &quot;黑体&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;
+}
+QPushButton:hover{
+background-color: rgb(22, 94, 131);
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 16pt &quot;黑体&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+QPushButton:pressed{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 16pt &quot;黑体&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+</string>
+           </property>
+           <property name="text">
+            <string>签到</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">image: url(:/new/res/camera_2.jpg);
+font: 72pt &quot;黑体&quot;;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="commandLinkButton_3">
+         <property name="styleSheet">
+          <string notr="true">
+
+QPushButton{color: rgb(0,0,0);
+border-image: url(:/new/res/43.gif);
+font: 16pt &quot;黑体&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;
+}
+QPushButton:hover{
+background-color: rgb(22, 94, 131);
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 16pt &quot;黑体&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+QPushButton:pressed{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 16pt &quot;黑体&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+</string>
+         </property>
+         <property name="text">
+          <string>人脸录入</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="1">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="styleSheet">
+            <string notr="true">image: url(:/new/res/write.jpg);
+font: 72pt &quot;黑体&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="class_info_Button">
+           <property name="styleSheet">
+            <string notr="true">
+
+QPushButton{color: rgb(0,0,0);;
+border-image: url(:/new/res/43.gif);
+font: 16pt &quot;黑体&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;
+}
+QPushButton:hover{
+background-color: rgb(22, 94, 131);
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 16pt &quot;黑体&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+QPushButton:pressed{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 16pt &quot;黑体&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+</string>
+           </property>
+           <property name="text">
+            <string>选课情况录入</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="styleSheet">
+          <string notr="true">image: url(:/new/res/manifier.jpg);
+font: 72pt &quot;黑体&quot;;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="commandLinkButton_2">
+         <property name="styleSheet">
+          <string notr="true">
+
+QPushButton{color: rgb(0,0,0);
+border-image: url(:/new/res/43.gif);
+font: 16pt &quot;黑体&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;
+}
+QPushButton:hover{
+background-color: rgb(22, 94, 131);
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 16pt &quot;黑体&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+QPushButton:pressed{
+border-image: url(:/new/res/46.gif);color: rgb(0, 255, 255);
+font: 16pt &quot;黑体&quot;;
+border:2px groove gray;
+border-radius:15px;
+padding:4px 4px;}
+</string>
+         </property>
+         <property name="text">
+          <string>人脸查看</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../photo.qrc"/>
+ </resources>
+ <connections/>
+</ui>
